@@ -1,16 +1,56 @@
-.heading {
+.page {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     font-family: "Matemasie", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
+    font-size: 20px;
 }
 
 .hapbir {
-    color: darkorchid;
+    color: #e428f5;
+}
+.heading {
+    display: flex;
+    justify-content: center;
 }
 
 .here {
     color: darkorange;
+}
+.gift-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+img {
+    width: 225px;
+}
+.g1, .g2, .g3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: crimson;
+}
+
+.gift1, .gift2, .gift3 {
+    background-image: url("./wrap.webp");
+    background-size: cover;
+    width: 225px;
+    height: 265px;
+}
+
+.gift1:hover {
+    background-image: url("./g1.webp");
+}
+
+.gift2:hover {
+    background-image: url("./g2.webp");
+}
+
+.gift3:hover {
+    background-image: url("./g3.webp");
 }
