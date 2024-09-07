@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.main {
+    width: 500px;
+    height: 610px;
+    border-radius: 10px;
+    border-top: 8px solid black;
+}
+
+.screen {
+    width: 485px;
+    height: 100px;
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    border-radius: 10px;
+}
+
+.inter {
+    display: flex;
+    width: 481px;
+    height: 496px;
+    border-radius: 10px;
+    padding: 3px;
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+}
+.kpad1 {
+    width: 546px;
+    height: 502px;
+    border-radius: 10px;
+}
+
+.k1r1 {
+    display: flex;
+    height: 99px;
+    border-radius: 10px;
+}
+
+.btn1 {
+    width: 97px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.kpad2 {
+    width: 146px;
+    height: 502px;
+    border-radius: 10px;
+}
+
+.btn2 {
+    width: 92px;
+    height: 99px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.btn3 {
+    width: 92px;
+    height: 199px;
+    border-radius: 10px;
+    font-size: 75px;
+}
+
+.btn4 {
+    width: 97px;
+    border-radius: 10px;
+    font-size: 75px;
+}
+
+.frame {
+    border: 1px dotted blue;
+}
