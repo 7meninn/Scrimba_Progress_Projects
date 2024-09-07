@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url("./background.jpeg");
+    background-image: url("./background.jpg");
     font-family: "Anton SC", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -53,25 +53,40 @@ button:hover {
     background-color: rgb(22, 22, 22);
 }
 
-.frame {
-    border: 1px dotted blue;
+.record {
+    border-left: 7px solid black;
+    width: 293px;
 }
 
-.record {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-left: 7px solid black;
+#list {
+    margin-top: 0px;
+    margin-left: 50px;
 }
 
 #name2 {
+    padding: 0px 0px 0px 80px;
     font-size: 40px;
+    text-shadow: 5px 5px 0px rgb(63, 217, 255);
+    margin-bottom: 10px;
 }
 
 #num {
     font-size: 185px;
     margin-top: 25px;
     text-shadow: 9px 10px 0px rgb(255, 63, 239);
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(187, 255, 0);
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+}
+
+li:hover {
+    color: rgb(255, 63, 239);
 }
 
 #name {
