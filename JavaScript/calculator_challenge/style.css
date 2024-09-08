@@ -1,21 +1,49 @@
 body {
     display: flex;
     justify-content: center;
+    background-color: wheat;
 }
-.main {
+.main1 {
     width: 500px;
-    height: 610px;
+    height: 515px;
     border-radius: 10px;
-    border-top: 8px solid black;
+    background-color: rgb(167, 167, 167);
+}
+
+.main2 {
+    width: 300px;
+    height: 502px;
+    margin-left: 1px;
+    border-radius: 10px;
+    background-color: rgb(167, 167, 167);
+    border: 8px solid rgb(39, 39, 39);
 }
 
 .screen {
-    width: 485px;
-    height: 100px;
-    border-left: 8px solid black;
-    border-right: 8px solid black;
-    border-bottom: 8px solid black;
+    height: 490px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     border-radius: 10px;
+    background-color: rgb(72, 72, 243);
+}
+
+p {
+    color: wheat;
+    margin: 3px 5px 0px 0px;
+}
+
+.fn {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#result {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 60px;
 }
 
 .inter {
@@ -24,9 +52,7 @@ body {
     height: 496px;
     border-radius: 10px;
     padding: 3px;
-    border-left: 8px solid black;
-    border-right: 8px solid black;
-    border-bottom: 8px solid black;
+    border: 8px solid rgb(39, 39, 39);
 }
 .kpad1 {
     width: 546px;
@@ -41,6 +67,8 @@ body {
 }
 
 .btn1 {
+    color: wheat;
+    background-color: rgb(39, 39, 39);
     width: 97px;
     border-radius: 10px;
     font-size: 50px;
@@ -53,13 +81,17 @@ body {
 }
 
 .btn2 {
+    color: wheat;
+    background-color: rgb(39, 39, 39);
     width: 92px;
     height: 99px;
     border-radius: 10px;
-    font-size: 50px;
+    font-size: 75px;
 }
 
 .btn3 {
+    color: wheat;
+    background-color: rgb(39, 39, 39);
     width: 92px;
     height: 199px;
     border-radius: 10px;
@@ -67,9 +99,15 @@ body {
 }
 
 .btn4 {
+    color: wheat;
+    background-color: rgb(39, 39, 39);
     width: 97px;
     border-radius: 10px;
     font-size: 75px;
+}
+
+button:hover {
+    color: white;
 }
 
 .frame {
